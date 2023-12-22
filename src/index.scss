@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "/fonts/css/fontiran.css";
+
+* {
+  font-family: "IRANSans";
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
